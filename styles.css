@@ -13,3 +13,149 @@ section{padding:88px 0}.section-head{display:flex;justify-content:space-between;
 .contact{background:#e5e7ea}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.contact h2{font-size:clamp(2.8rem,4.5vw,4.7rem);line-height:.98;margin:12px 0 24px}.contact-list p{margin:9px 0;font-size:1.02rem}.contact-panel{background:#171a20;color:#fff;padding:42px}.contact-panel h3{font-size:2rem;margin-bottom:18px}.footer{background:#101216;color:#d8dce1;padding:38px 0}.footer-grid{display:flex;justify-content:space-between;gap:30px;align-items:flex-end}.footer small{color:#aeb4bc}
 @media(max-width:900px){.nav-links a:not(.nav-cta){display:none}.hero-grid,.about-grid,.area-grid,.request-grid,.contact-grid{grid-template-columns:1fr}.hero-copy{padding:58px 6vw}.hero-image{min-height:430px;background-position:center}.trust-grid,.service-grid{grid-template-columns:1fr 1fr}.portrait img{height:360px}.request-intro{padding-top:0}}
 @media(max-width:600px){.nav{height:76px}.brand img{width:145px;height:56px}.nav-cta{padding:11px 13px;font-size:.82rem}.hero-grid{min-height:unset}.hero-copy{padding:48px 22px}h1{font-size:3.5rem}.hero-image{min-height:330px}.trust-grid,.service-grid,.form-grid,.faq-grid,.counties{grid-template-columns:1fr}.trust-item{border-right:0;border-bottom:1px solid rgba(255,255,255,.15)}.portrait-grid{gap:10px}.portrait img{height:285px}section{padding:64px 0}.form-card{padding:22px 17px}.steps{grid-template-columns:1fr 1fr}.footer-grid{display:block}}
+
+/* =========================================================
+   APPROVED UPDATE — HEADER LOGO + FULL-WIDTH HERO ONLY
+   No other website sections are changed.
+   ========================================================= */
+
+/* Give the original TSC logo more presence in the header. */
+.nav {
+  height: 108px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+.brand img {
+  width: 245px;
+  height: 90px;
+  object-fit: contain;
+  object-position: left center;
+}
+
+/* Use the existing hero photograph across the entire hero section. */
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  min-height: 650px;
+}
+
+/* Photograph fills the complete hero from edge to edge. */
+.hero-image {
+  grid-area: 1 / 1;
+  position: relative;
+  z-index: 0;
+  min-height: 650px;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(8, 10, 14, .94) 0%,
+      rgba(8, 10, 14, .82) 25%,
+      rgba(8, 10, 14, .48) 48%,
+      rgba(8, 10, 14, .10) 72%,
+      rgba(8, 10, 14, .02) 100%
+    ),
+    url('image-1.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Wording overlays the left side while remaining legible. */
+.hero-copy {
+  grid-area: 1 / 1;
+  position: relative;
+  z-index: 1;
+  width: min(650px, 54vw);
+  min-height: 650px;
+  padding: 78px 28px 72px max(5vw, 42px);
+  background: transparent;
+  justify-content: center;
+}
+
+.hero-copy p {
+  max-width: 520px;
+}
+
+/* Keep the image's right-side signing scene visible. */
+.hero-image::after {
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.10);
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .nav {
+    height: 96px;
+  }
+
+  .brand img {
+    width: 210px;
+    height: 78px;
+  }
+
+  .hero-grid,
+  .hero-copy,
+  .hero-image {
+    min-height: 590px;
+  }
+
+  .hero-copy {
+    width: min(610px, 68vw);
+    padding: 64px 30px 60px 6vw;
+  }
+
+  .hero-image {
+    background-position: 58% center;
+  }
+}
+
+/* Phone */
+@media (max-width: 600px) {
+  .nav {
+    height: 88px;
+  }
+
+  .brand img {
+    width: 178px;
+    height: 68px;
+  }
+
+  .hero-grid,
+  .hero-copy,
+  .hero-image {
+    min-height: 610px;
+  }
+
+  .hero-copy {
+    width: 100%;
+    min-height: 610px;
+    padding: 60px 22px 46px;
+    justify-content: flex-end;
+    background:
+      linear-gradient(
+        180deg,
+        rgba(8,10,14,.12) 0%,
+        rgba(8,10,14,.30) 38%,
+        rgba(8,10,14,.93) 72%,
+        rgba(8,10,14,.98) 100%
+      );
+  }
+
+  .hero-image {
+    background-image: url('image-1.jpg');
+    background-position: 60% center;
+  }
+
+  .hero-copy h1 {
+    font-size: clamp(3rem, 15vw, 4rem);
+  }
+}
