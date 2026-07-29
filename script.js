@@ -1,0 +1,1 @@
+document.getElementById('add-cosigner').addEventListener('change',function(){const box=document.querySelector('.cosigner');box.style.display=this.checked?'block':'none';});
