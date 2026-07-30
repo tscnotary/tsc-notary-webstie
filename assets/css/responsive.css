@@ -10,3 +10,145 @@
   .footer-brand img{margin:0 auto}
   .footer-bottom{padding:12px 20px 15px}
 }
+
+
+/* Mobile polish only — desktop layout remains unchanged */
+@media (max-width:560px){
+  body{overflow-x:hidden}
+
+  /* Service cards: keep icons attached to their own images */
+  .service-card{overflow:visible}
+  .service-card>img{
+    width:100%;
+    height:auto !important;
+    aspect-ratio:20/13;
+    object-fit:contain;
+    object-position:center;
+  }
+  .service-icon{
+    position:relative !important;
+    top:auto !important;
+    left:14px !important;
+    margin-top:-24px !important;
+    margin-bottom:-24px !important;
+  }
+  .card-body{padding:34px 24px 24px}
+  .card-body h3{font-size:27px;line-height:1.1}
+  .card-body p{font-size:17px;line-height:1.45}
+  .card-body a{font-size:17px}
+  .notice{
+    margin-top:20px;
+    padding:18px;
+    align-items:flex-start;
+    font-size:16px;
+    line-height:1.45;
+  }
+  .notice span{font-size:28px;flex:0 0 auto}
+
+  /* Service-area map: show the full graphic instead of zooming/cropping */
+  .map-wrap{
+    min-height:0 !important;
+    background:#071017;
+  }
+  .map-wrap img{
+    width:100%;
+    height:auto;
+    object-fit:contain;
+  }
+  .map-wrap:after{display:none}
+  .groveland-label{display:none}
+
+  /* Credentials: compact, aligned, and readable */
+  .credentials{padding:24px 20px}
+  .credentials>.eyebrow{font-size:11px;letter-spacing:3px}
+  .credential-row{
+    padding:0;
+    gap:20px;
+    align-items:stretch;
+  }
+  .credential{
+    width:100%;
+    display:grid;
+    grid-template-columns:110px 1fr;
+    align-items:center;
+    gap:18px;
+  }
+  .credential img{
+    width:105px;
+    height:105px;
+    object-fit:contain;
+  }
+  .credential h3{
+    font-size:25px;
+    line-height:1.1;
+    margin-bottom:8px;
+  }
+  .credential p{
+    font-size:18px;
+    line-height:1.35;
+  }
+  .divider{margin:4px 0}
+
+  /* Trusted-by logos: larger and less cramped */
+  .trusted{padding:18px 16px 24px}
+  .trusted>.eyebrow{font-size:11px;letter-spacing:4px}
+  .trusted img{
+    width:100%;
+    max-height:none;
+    height:auto;
+  }
+
+  /* Request section: reduce oversized headline and spacing */
+  .request{padding:34px 18px}
+  .request-intro{padding:0}
+  .request-intro h2{
+    font-size:42px;
+    line-height:1.03;
+    margin-bottom:16px;
+  }
+  .request-intro>p:not(.eyebrow){
+    font-size:18px;
+    line-height:1.5;
+  }
+  .request-notice{
+    font-size:16px;
+    line-height:1.45;
+    padding:16px;
+  }
+  .form-card{margin-top:24px}
+  .checkline{font-size:16px !important}
+  .checkline input{width:26px !important;height:26px !important;flex:0 0 26px}
+  .submit{font-size:18px;padding:17px}
+
+  /* Footer: keep it refined and compact */
+  .footer-main{
+    gap:28px;
+    padding:32px 26px 28px;
+    text-align:left;
+  }
+  .footer-brand img{
+    width:175px;
+    margin:0 auto;
+  }
+  .footer-details,
+  .footer-contact{
+    align-items:flex-start !important;
+    font-family:Arial,Helvetica,sans-serif !important;
+    font-size:16px !important;
+    line-height:1.45;
+  }
+  .footer-details strong,
+  .footer-contact strong{
+    font-family:Georgia,'Times New Roman',serif;
+    font-size:24px;
+    margin-bottom:8px;
+  }
+  .footer-contact a{
+    font-size:17px;
+    width:auto !important;
+  }
+  .footer-bottom{
+    font-size:13px;
+    line-height:1.4;
+  }
+}
