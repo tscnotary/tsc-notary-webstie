@@ -152,3 +152,9 @@
     line-height:1.4;
   }
 }
+
+/* Final mobile icon cleanup: service photos already include their own symbol */
+@media (max-width:560px){
+  .service-icon{display:none !important;}
+  .card-body{padding-top:26px !important;}
+}
