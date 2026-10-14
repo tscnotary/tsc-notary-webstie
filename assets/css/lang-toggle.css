@@ -1,0 +1,13 @@
+/* Additive language-toggle styles — does not alter existing rules. */
+.lang-toggle{
+  display:inline-flex;align-items:center;justify-content:center;
+  padding:10px 18px;border:1px solid #0b1117;border-radius:999px;
+  background:#fff;color:#0b1117;
+  font-family:Arial,Helvetica,sans-serif;font-weight:700;font-size:13px;letter-spacing:.4px;
+  cursor:pointer;white-space:nowrap;
+}
+.lang-toggle:hover{background:#0b1117;color:#fff}
+.lang-toggle:focus-visible{outline:2px solid #0b1117;outline-offset:2px}
+@media(max-width:900px){
+  .lang-toggle{padding:8px 14px;font-size:12px}
+}
