@@ -62,9 +62,13 @@
     // Service area
     'SERVICE AREA': 'ÁREA DE SERVICIO',
     'Serving Central Florida.': 'Sirviendo a la Florida Central.',
+    'We come to you.': 'Vamos hasta usted.',
+    '— Client review': '— Reseña de cliente',
+    'Serving Central Florida • English & Spanish': 'Sirviendo a la Florida Central • Inglés y español',
     'Based in Groveland, TSC Notary provides professional mobile service throughout Central Florida and travels directly to clients.': 'Con sede en Groveland, TSC Notary brinda servicio móvil profesional en toda la Florida Central y viaja directamente hasta los clientes.',
     '◉ We come to you.': '◉ Vamos hasta usted.',
     'Homes, offices, title companies, hospitals, assisted-living communities, and other convenient locations.': 'Hogares, oficinas, compañías de título, hospitales, comunidades de vida asistida y otros lugares convenientes.',
+    'Homes, offices, title companies, hospitals, assisted-living communities, and other convenient locations. Evening and weekend appointments available — after-hours fees are discussed when you book.': 'Hogares, oficinas, compañías de título, hospitales, comunidades de vida asistida y otros lugares convenientes. Hay citas disponibles por la noche y los fines de semana — los cargos por horario extendido se acuerdan al reservar.',
     'Central Florida service map covering Lake, Orange, Osceola, Polk, and Sumter counties': 'Mapa de servicio de la Florida Central que cubre los condados de Lake, Orange, Osceola, Polk y Sumter',
     'Based in Groveland': 'Con sede en Groveland',
 
@@ -167,6 +171,8 @@
 
     // Footer
     'Mobile service only': 'Solo servicio móvil',
+    'By appointment': 'Con cita previa',
+    'Evening and weekend appointments available — after-hours fees are discussed when you book.': 'Citas disponibles por la noche y los fines de semana — los cargos por horario extendido se acuerdan al reservar.',
     'English & Spanish': 'Inglés y español',
     'Bonded & E&O insured': 'Afianzado y asegurado E&O',
     '© 2026 TSC Notary, LLC. All rights reserved.': '© 2026 TSC Notary, LLC. Todos los derechos reservados.',
@@ -174,7 +180,40 @@
     // Thank-you page
     'Thank you.': 'Gracias.',
     'Your request has been received. TSC Notary will contact you as soon as possible.': 'Su solicitud ha sido recibida. TSC Notary se comunicará con usted lo antes posible.',
-    'Return to website': 'Volver al sitio web'
+    'Return to website': 'Volver al sitio web',
+
+    // Redesign concept additions
+    'The notary that': 'El notario que',
+    'comes to you.': 'va hasta usted.',
+    'We\u2019re Edwin & Sylvia Rivera — a husband-and-wife notary team serving Central Florida. Closings done right, at your home, office, or title company.': 'Somos Edwin y Sylvia Rivera — un matrimonio de notarios al servicio de la Florida Central. Cierres bien hechos, en su hogar, oficina o compañía de título.',
+    'Call 321-758-5778': 'Llamar al 321-758-5778',
+    'Years of experience': 'Años de experiencia',
+    'Counties served': 'Condados atendidos',
+    'Mobile service': 'Servicio móvil',
+    'HOW IT WORKS': 'CÓMO FUNCIONA',
+    'Signing made simple.': 'Firmar es fácil.',
+    'Request your signing': 'Solicite su firma',
+    'Tell us about your signing in the form below — it takes a minute.': 'Cuéntenos sobre su firma en el formulario — solo toma un minuto.',
+    'We confirm the details': 'Confirmamos los detalles',
+    'We contact you to verify availability and confirm your appointment.': 'Nos comunicamos con usted para verificar la disponibilidad y confirmar su cita.',
+    'We come to you': 'Vamos hasta usted',
+    'We travel to your home, office, or title company — at a time that works for you.': 'Viajamos hasta su hogar, oficina o compañía de título — a la hora que le convenga.',
+    'WHAT CLIENTS SAY': 'LO QUE DICEN LOS CLIENTES',
+    'Trusted across Central Florida.': 'Con la confianza de la Florida Central.',
+    'from 7 Google reviews': 'según 7 reseñas de Google',
+    'Read our Google reviews': 'Leer nuestras reseñas en Google',
+    'Leave us a review': 'Déjenos una reseña',
+    'via Google': 'vía Google',
+    'Your Google reviews will shine here — real words from real clients.': 'Aquí brillarán sus reseñas de Google — palabras reales de clientes reales.',
+    'Client review': 'Reseña de cliente',
+    'Ready when you are.': 'Listos cuando usted lo esté.',
+    "Request your signing in under a minute — we'll handle the rest.": 'Solicite su firma en menos de un minuto — nosotros nos encargamos del resto.',
+    'Prefer to talk?': '¿Prefiere hablar?',
+    'Title companies, law firms, and signing agencies: include your file number and appointment details — everything we need to invoice and schedule. General notary clients are welcome too; just enter N/A where it doesn\'t apply.': 'Compañías de título, bufetes de abogados y agencias de firma: incluya su número de expediente y los detalles de la cita — todo lo que necesitamos para facturar y programar. Para trámites generales de notaría, también son bienvenidos; solo escriba N/A donde no aplique.',
+    'Send us your signing order.': 'Envíenos su orden de firma.',
+    'Follow us': 'Síganos',
+    'Call now': 'Llamar ahora',
+    'Request': 'Solicitar',
   };
 
   var STORAGE_KEY = 'tsc-lang';
