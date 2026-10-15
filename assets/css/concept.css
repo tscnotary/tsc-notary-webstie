@@ -180,6 +180,12 @@ footer{background:#060b10;color:#fff}
 .footer-details strong,.footer-contact strong{font-family:var(--serif);font-size:20px;margin-bottom:6px;color:var(--gold-lt)}
 .footer-contact a{color:#d6dce1}
 .footer-contact a:hover{color:var(--gold-lt);text-decoration:underline;text-underline-offset:3px}
+.social-row{margin-top:12px;display:flex;flex-direction:column;gap:10px;align-items:flex-start}
+.social-label{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#8b959c;font-weight:800}
+.social-link{display:inline-flex!important;align-items:center;gap:10px;font-weight:800;text-decoration:none!important}
+.social-link svg{width:34px;height:34px;flex:0 0 auto;fill:var(--gold-lt);background:rgba(201,162,75,.12);border:1px solid rgba(201,162,75,.55);border-radius:50%;padding:7px;transition:transform .15s ease,background .15s ease}
+.social-link:hover svg{transform:scale(1.08);background:rgba(201,162,75,.25)}
+.social-link:hover{text-decoration:none!important}
 .footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:16px;padding-bottom:16px;text-align:center;font-size:12.5px;color:#8b959c}
 
 /* Mobile call bar */
