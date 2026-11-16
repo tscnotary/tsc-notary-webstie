@@ -183,7 +183,7 @@
     'Return to website': 'Volver al sitio web',
 
     // Redesign concept additions
-    'The notary that': 'El notario que',
+    'The notary team that': 'El equipo de notarios que',
     'comes to you.': 'va hasta usted.',
     'We\u2019re Edwin & Sylvia Rivera — a husband-and-wife notary team serving Central Florida. Closings done right, at your home, office, or title company.': 'Somos Edwin y Sylvia Rivera — un matrimonio de notarios al servicio de la Florida Central. Cierres bien hechos, en su hogar, oficina o compañía de título.',
     'Call 321-758-5778': 'Llamar al 321-758-5778',
